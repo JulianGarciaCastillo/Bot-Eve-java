@@ -7,12 +7,11 @@
 - Built in: Netbeans 8.0.2
 - Author: Julian Garcia Castillo
 ```
-=======
 ## Features
-* Infinite ways to know about what **date,time,month or year** is.
+* Infinite ways to know about what **date, time, month or year** is.
 * Simple **calculation** (addition, substract, multiplication and division)
 * Repetitive users will be notice.
-* Movies, music, sex, sports, tecnology,vices...
+* Movies, music, sex, sports, tecnology, vices...
 * Talk about your **family**.
 * **Don't insult** Eve.
 * Eve will remember **your name**.
