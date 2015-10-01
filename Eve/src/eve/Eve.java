@@ -488,7 +488,9 @@ System.out.println();
    /* Detecta diversas formas de introducir el nombre del usuario.
     * Me llamo Juli, Mi nombre es Juli, Juli, Soy Juli.
     */
+    
       String nombreUsu ="";
+  try{
     if(Arrays.asList(splitedInicial).contains("llamo")){
       nombreUsu = Arrays.asList(splitedInicial).get(5); //5 windows  4 linux
     }
@@ -502,6 +504,9 @@ System.out.println();
       nombreUsu = nombreUser;
     }
       randomSaludos(nombreUsu);
+  }catch(ArrayIndexOutOfBoundsException e){
+      System.out.print("Escribe tu nombre de forma correcta hijo de puta.");
+  }
   }
   public static void detectaNombrePropio(String splited[], String nombreUser) {
    /* Detecta diversas formas de introducir el nombre del usuario.
